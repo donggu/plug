@@ -1,4 +1,4 @@
-﻿Build started 2012-08-29 오후 6:53:09.
+﻿Build started 2012-08-29 오후 9:17:57.
      1>Project "C:\Users\samsung\Desktop\of\apps\myApps\Plug\emptyExample.vcxproj" on node 3 (build target(s)).
      1>InitializeBuildStatus:
          Creating "obj\Release\Plug.unsuccessfulbuild" because "AlwaysCreate" was specified.
@@ -48,6 +48,7 @@
          obj\Release\ofxBox2dJoint.obj
          obj\Release\ofxBox2dPolygon.obj
          obj\Release\ofxBox2dRect.obj
+         obj\Release\formWidget.obj
          obj\Release\main.obj
          obj\Release\realApp.obj
          C:\Users\samsung\Desktop\of\libs\openFrameworksCompiled\lib\vs2010\openframeworksLib.lib
@@ -74,4 +75,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:05.77
+Time Elapsed 00:00:05.15

@@ -58,7 +58,7 @@
       <PrecompiledHeader />
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
-      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\samsung\Desktop\of\addons\ofxBox2d\libs\Box2D\Dynamics\Joints;C:\Users\samsung\Desktop\of\addons\ofxBox2d\libs\Box2D\Dynamics\Contacts;C:\Users\samsung\Desktop\of\addons\ofxBox2d\libs\Box2D\Dynamics;C:\Users\samsung\Desktop\of\addons\ofxBox2d\libs\Box2D\Common;C:\Users\samsung\Desktop\of\addons\ofxBox2d\libs\Box2D\Collision\Shapes;C:\Users\samsung\Desktop\of\addons\ofxBox2d\libs\Box2D\Collision;C:\Users\samsung\Desktop\of\addons\ofxBox2d\libs\Box2D;C:\Users\samsung\Desktop\of\addons\ofxBox2d\libs\triangle;C:\Users\samsung\Desktop\of\addons\ofxBox2d\libs;C:\Users\samsung\Desktop\of\addons\ofxBox2d\src;C:\Users\samsung\Desktop\of\addons\ofxXmlSettings\libs;C:\Users\samsung\Desktop\of\addons\ofxXmlSettings\src;C:\Users\samsung\Desktop\of\addons\ofxUI\src;%(AdditionalIncludeDirectories);src</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
@@ -141,6 +141,7 @@
     <ClCompile Include="..\..\..\addons\ofxBox2d\src\ofxBox2dJoint.cpp" />
     <ClCompile Include="..\..\..\addons\ofxBox2d\src\ofxBox2dPolygon.cpp" />
     <ClCompile Include="..\..\..\addons\ofxBox2d\src\ofxBox2dRect.cpp" />
+    <ClCompile Include="formWidget.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\realApp.cpp" />
   </ItemGroup>

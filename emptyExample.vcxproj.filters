@@ -133,6 +133,9 @@
     <ClCompile Include="..\..\..\addons\ofxBox2d\src\ofxBox2dRect.cpp">
       <Filter>ofxBox2d</Filter>
     </ClCompile>
+    <ClCompile Include="formWidget.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="src">

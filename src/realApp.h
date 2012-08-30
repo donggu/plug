@@ -21,18 +21,9 @@ class realApp : public ofBaseApp{
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
 	
-		void drawGrid(float x, float y); 
-    
-		void setGUI1(); 
 		void setGUI2(); 
-		void setGUI3(); 	
-		void setGUI4(); 	    
-	
-		ofxUICanvas *gui1;   	
 		ofxUICanvas *gui2;   	
-		ofxUICanvas *gui3;
-		ofxUIScrollableCanvas *gui4;
-
+	
     
 		bool hideGUI; 
 	
@@ -46,10 +37,8 @@ class realApp : public ofBaseApp{
 		float *buffer; 
 		ofImage *img;
 //////////////////////
-
 		vector <ofVec2f> loadPoints(string file);
-	
-	
+
 		ofPolyline					shape;
 		ofxBox2d					box2d;
 		vector <ofxBox2dCircle>		circles;
