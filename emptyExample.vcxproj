@@ -141,8 +141,9 @@
     <ClCompile Include="..\..\..\addons\ofxBox2d\src\ofxBox2dJoint.cpp" />
     <ClCompile Include="..\..\..\addons\ofxBox2d\src\ofxBox2dPolygon.cpp" />
     <ClCompile Include="..\..\..\addons\ofxBox2d\src\ofxBox2dRect.cpp" />
-    <ClCompile Include="src\formWidget.cpp" />
-    <ClCompile Include="src\gate.cpp" />
+    <ClCompile Include="baseWidget.cpp" />
+    <ClCompile Include="src\formWidget.h" />
+    <ClCompile Include="src\gateWidget.h" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\realApp.cpp" />
   </ItemGroup>

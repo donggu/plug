@@ -1,10 +1,14 @@
-﻿Build started 2012-08-30 오후 9:21:50.
-     1>Project "C:\Users\samsung\Desktop\of\apps\myApps\Plug\emptyExample.vcxproj" on node 3 (build target(s)).
+﻿Build started 2012-08-31 오후 4:56:13.
+     1>Project "C:\Users\samsung\Desktop\of\apps\myApps\Plug\emptyExample.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Touching "obj\Release\Plug.unsuccessfulbuild".
        ClCompile:
-         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Users\samsung\Desktop\of\addons\ofxBox2d\libs\Box2D\Dynamics\Joints /IC:\Users\samsung\Desktop\of\addons\ofxBox2d\libs\Box2D\Dynamics\Contacts /IC:\Users\samsung\Desktop\of\addons\ofxBox2d\libs\Box2D\Dynamics /IC:\Users\samsung\Desktop\of\addons\ofxBox2d\libs\Box2D\Common /IC:\Users\samsung\Desktop\of\addons\ofxBox2d\libs\Box2D\Collision\Shapes /IC:\Users\samsung\Desktop\of\addons\ofxBox2d\libs\Box2D\Collision /IC:\Users\samsung\Desktop\of\addons\ofxBox2d\libs\Box2D /IC:\Users\samsung\Desktop\of\addons\ofxBox2d\libs\triangle /IC:\Users\samsung\Desktop\of\addons\ofxBox2d\libs /IC:\Users\samsung\Desktop\of\addons\ofxBox2d\src /IC:\Users\samsung\Desktop\of\addons\ofxXmlSettings\libs /IC:\Users\samsung\Desktop\of\addons\ofxXmlSettings\src /IC:\Users\samsung\Desktop\of\addons\ofxUI\src /I..\..\..\libs\openFrameworks /I..\..\..\libs\openFrameworks\graphics /I..\..\..\libs\openFrameworks\app /I..\..\..\libs\openFrameworks\sound /I..\..\..\libs\openFrameworks\utils /I..\..\..\libs\openFrameworks\communication /I..\..\..\libs\openFrameworks\video /I..\..\..\libs\openFrameworks\types /I..\..\..\libs\openFrameworks\math /I..\..\..\libs\openFrameworks\3d /I..\..\..\libs\openFrameworks\gl /I..\..\..\libs\openFrameworks\events /I..\..\..\libs\glut\include /I..\..\..\libs\rtAudio\include /I..\..\..\libs\quicktime\include /I..\..\..\libs\freetype\include /I..\..\..\libs\freetype\include\freetype2 /I..\..\..\libs\freeImage\include /I..\..\..\libs\fmodex\include /I..\..\..\libs\videoInput\include /I..\..\..\libs\glew\include\ /I..\..\..\libs\glu\include /I..\..\..\libs\tess2\include /I..\..\..\libs\cairo\include\cairo /I..\..\..\libs\poco\include /I..\..\..\addons /Isrc /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D POCO_STATIC /D CAIRO_WIN32_STATIC_BUILD /D DISABLE_SOME_FLOATING_POINT /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Release\\" /Fd"obj\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt src\realApp.cpp
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Users\samsung\Desktop\of\addons\ofxBox2d\libs\Box2D\Dynamics\Joints /IC:\Users\samsung\Desktop\of\addons\ofxBox2d\libs\Box2D\Dynamics\Contacts /IC:\Users\samsung\Desktop\of\addons\ofxBox2d\libs\Box2D\Dynamics /IC:\Users\samsung\Desktop\of\addons\ofxBox2d\libs\Box2D\Common /IC:\Users\samsung\Desktop\of\addons\ofxBox2d\libs\Box2D\Collision\Shapes /IC:\Users\samsung\Desktop\of\addons\ofxBox2d\libs\Box2D\Collision /IC:\Users\samsung\Desktop\of\addons\ofxBox2d\libs\Box2D /IC:\Users\samsung\Desktop\of\addons\ofxBox2d\libs\triangle /IC:\Users\samsung\Desktop\of\addons\ofxBox2d\libs /IC:\Users\samsung\Desktop\of\addons\ofxBox2d\src /IC:\Users\samsung\Desktop\of\addons\ofxXmlSettings\libs /IC:\Users\samsung\Desktop\of\addons\ofxXmlSettings\src /IC:\Users\samsung\Desktop\of\addons\ofxUI\src /I..\..\..\libs\openFrameworks /I..\..\..\libs\openFrameworks\graphics /I..\..\..\libs\openFrameworks\app /I..\..\..\libs\openFrameworks\sound /I..\..\..\libs\openFrameworks\utils /I..\..\..\libs\openFrameworks\communication /I..\..\..\libs\openFrameworks\video /I..\..\..\libs\openFrameworks\types /I..\..\..\libs\openFrameworks\math /I..\..\..\libs\openFrameworks\3d /I..\..\..\libs\openFrameworks\gl /I..\..\..\libs\openFrameworks\events /I..\..\..\libs\glut\include /I..\..\..\libs\rtAudio\include /I..\..\..\libs\quicktime\include /I..\..\..\libs\freetype\include /I..\..\..\libs\freetype\include\freetype2 /I..\..\..\libs\freeImage\include /I..\..\..\libs\fmodex\include /I..\..\..\libs\videoInput\include /I..\..\..\libs\glew\include\ /I..\..\..\libs\glu\include /I..\..\..\libs\tess2\include /I..\..\..\libs\cairo\include\cairo /I..\..\..\libs\poco\include /I..\..\..\addons /Isrc /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D POCO_STATIC /D CAIRO_WIN32_STATIC_BUILD /D DISABLE_SOME_FLOATING_POINT /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Release\\" /Fd"obj\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt baseWidget.cpp src\formWidget.h src\gateWidget.h src\realApp.cpp
+         baseWidget.cpp
+         formWidget.h
+         gateWidget.h
          realApp.cpp
+         Generating Code...
        Link:
          c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\Plug.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\..\libs\glut\lib\vs2010 /LIBPATH:..\..\..\libs\rtAudio\lib\vs2010 /LIBPATH:..\..\..\libs\FreeImage\lib\vs2010 /LIBPATH:..\..\..\libs\freetype\lib\vs2010 /LIBPATH:..\..\..\libs\quicktime\lib\vs2010 /LIBPATH:..\..\..\libs\fmodex\lib\vs2010 /LIBPATH:..\..\..\libs\videoInput\lib\vs2010 /LIBPATH:..\..\..\libs\cairo\lib\vs2010 /LIBPATH:..\..\..\libs\glew\lib\vs2010 /LIBPATH:..\..\..\libs\glu\lib\vs2010 /LIBPATH:..\..\..\libs\Poco\lib\vs2010 /LIBPATH:..\..\..\libs\tess2\lib\vs2010 "cairo-static.lib" "pixman-1.lib" msimg32.lib OpenGL32.lib GLu32.lib kernel32.lib setupapi.lib Vfw32.lib comctl32.lib glut32.lib rtAudioD.lib videoInput.lib libfreetype.lib FreeImage.lib qtmlClient.lib dsound.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib glew32s.lib fmodex_vc.lib glu32.lib PocoFoundationmd.lib PocoNetmd.lib PocoUtilmd.lib PocoXMLmd.lib Ws2_32.lib tess2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:PocoFoundationd.lib /NODEFAULTLIB:atlthunk.lib /NODEFAULTLIB:LIBC.lib /NODEFAULTLIB:LIBCMT /MANIFEST /ManifestFile:"obj\Release\Plug.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\samsung\Desktop\of\apps\myApps\Plug\bin\Plug.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"bin\Plug.lib" /MACHINE:X86 obj\Release\b2BroadPhase.obj
          obj\Release\b2CollideCircle.obj
@@ -48,8 +52,9 @@
          obj\Release\ofxBox2dJoint.obj
          obj\Release\ofxBox2dPolygon.obj
          obj\Release\ofxBox2dRect.obj
+         obj\Release\baseWidget.obj
          obj\Release\formWidget.obj
-         obj\Release\gate.obj
+         obj\Release\gateWidget.obj
          obj\Release\main.obj
          obj\Release\realApp.obj
          C:\Users\samsung\Desktop\of\libs\openFrameworksCompiled\lib\vs2010\openframeworksLib.lib
@@ -76,4 +81,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:05.23
+Time Elapsed 00:00:11.91
