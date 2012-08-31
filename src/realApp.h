@@ -20,27 +20,13 @@ class realApp : public ofBaseApp{
 		void windowResized(int w, int h);
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
-	
-		void setGUI2(); 
-		ofxUICanvas *gui2;   	
-	
-    
-		bool hideGUI; 
-	
-		float red, green, blue; 
-		bool bdrawGrid; 
-		bool bdrawPadding; 
-	
+
 		void guiEvent(ofxUIEventArgs &e);
-    
-		ofxUIMovingGraph *mg; 
-		float *buffer; 
-		ofImage *img;
 //////////////////////
 		vector <ofVec2f> loadPoints(string file);
 
-		ofPolyline					shape;
 		ofxBox2d					box2d;
 		vector <ofxBox2dCircle>		circles;
 		vector <ofxBox2dPolygon>	triangles;
+		vector <ofxBox2dRect> rects;
 };
